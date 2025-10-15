@@ -1,7 +1,7 @@
 # Configuration Guide
 
 > [!info] Navigation
-> ← Back to [[EasyVote_Partner_Support_Index|Partner Support Index]]
+> ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
 > Step-by-step configuration procedures for setting up AirFinder election security solutions, from initial account creation to advanced election-specific configurations.
@@ -270,4 +270,4 @@ Reporting:
 
 **Document Version**: 2.0  
 **Last Updated**: October 14, 2024  
-**Part of**: [[EasyVote_Partner_Support_Index|EasyVote Partner Support Guide]]
+**Part of**: [[index|EasyVote Partner Support Guide]]
