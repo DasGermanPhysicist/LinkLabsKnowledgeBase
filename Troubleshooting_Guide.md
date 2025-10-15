@@ -8,46 +8,63 @@
 
 ## 🔧 Common Issues and Solutions
 
-### Issue 1: Device Not Reporting Location
+### SuperTag Not Reporting
 
 > [!warning] Symptom
-> SuperTag shows "offline" status or last location update is significantly outdated.
+> SuperTags last event time is significantly outdated. 
 
 #### Troubleshooting Steps
 
-**1. Check Device Status**
+**1. Check Battery Status**
 > [!check] Device Health Assessment
 > Verify basic device functionality and power status.
 
-- **Battery Level**: Verify device power and battery level (>20% required)
-- **Signal Strength**: Confirm cellular signal strength (minimum 2 bars)
-- **Physical Condition**: Check for physical damage or water exposure
-- **LED Indicators**: Observe device LED patterns for status information
+- **Battery Level**: Verify device battery level (>10% required)
+	- Check the battery icon: Is battery likely dead?
 
 **2. Network Connectivity**
 > [!network] Communication Verification
 > Ensure device can communicate with AirFinder platform.
 
 - **Cellular Coverage**: Verify cellular coverage in device location
-- **Network Status**: Check for carrier outages or maintenance windows
-- **SIM Card**: Test device with known good SIM card if available
-- **APN Settings**: Verify Access Point Name configuration for carrier
+- Use [[SuperTag LTE-M Signal Strength - Cell RSRP and RSRQ]] as guide 
 
 **3. Configuration Review**
 > [!settings] Settings Validation
 > Confirm device configuration is appropriate for current use case.
 
-- **Update Frequency**: Confirm location update frequency settings (not too aggressive)
-- **Power Mode**: Verify device is not in power-saving mode during critical periods
-- **Geofencing**: Check geofencing configuration for conflicts or errors
+- **Update Frequency**: Confirm location update frequency settings
 
+**4. Hardware Check**
+> [!settings] Validate Hardware Integrity
+> Confirm the device is undamaged
+
+- Let user confirm LED status 
+- Let user try cloud-sync, best in location with known cell coverage 
+- Let user provide photographic evidence 
 #### Resolution Steps
-- **Battery <20%**: Replace device or recharge if applicable
-- **No Cellular Signal**: Relocate device or install signal booster
+- **Battery <10%**: Replace device or recharge if applicable
+- **No Cellular Signal**: Change device mounting to position with less RF shielding
 - **Configuration Issue**: Reset to default settings and reconfigure
 - **Hardware Failure**: [[Issue_Escalation_Plan|Escalate to Link Labs]] for replacement
 
-### Issue 2: BLE Sensors Not Detecting
+### Device Reporting Wrong Location
+
+> [!warning] Symptom
+> SuperTags shows different position on the map than its real position 
+> 
+
+#### Troubleshooting Steps
+
+**1. Check Time of Location Informatin**
+> [!check] Check Location Timestamp
+> Verify that both the SuperTag location and real device location are both reported for the same time
+
+- Check timestamp of location fix in location history 
+
+
+
+### BLE Sensors Not Detecting
 
 > [!sensor] Symptom
 > Door sensors or other BLE devices not reporting data to SuperTag.
@@ -88,7 +105,7 @@
 - **Force Scan**: Force SSF scan via SuperTag Downlink Tool
 - **Hardware Issue**: Replace BLE sensor if defective
 
-### Issue 3: False Alerts or Missing Alerts
+### False Alerts or Missing Alerts
 
 > [!bell] Symptom
 > Receiving alerts when no event occurred, or not receiving expected alerts for actual events.
@@ -128,7 +145,7 @@
 - **Update Contacts**: Test and update notification delivery methods
 - **System Issue**: [[Issue_Escalation_Plan|Escalate to Link Labs]] if platform problem
 
-### Issue 4: Portal Access or Login Problems
+### Portal Access or Login Problems
 
 > [!lock] Symptom
 > Cannot access AirFinder portal or experiencing authentication failures.

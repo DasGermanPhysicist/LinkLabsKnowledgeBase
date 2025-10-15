@@ -4,7 +4,7 @@
 > ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
-> Comprehensive training guide for AirFinder platform features and essential tools that EasyVote partners need to master for effective customer support.
+> Comprehensive training guide for AirFinder platform features and essential tools that Link Labs partners need to master for effective customer support across multiple verticals.
 
 ## 🎯 Core AirFinder Platform Features
 
@@ -18,15 +18,15 @@
 - **Geofencing**: Customizable boundaries with entry/exit alerts
 - **Historical Tracking**: Complete movement history and analytics
 
-### Election-Specific Features
+### Vertical-Specific Features
 
-> [!vote] Election Security Applications
-> Specialized features designed specifically for election security and compliance requirements.
+> [!industry] Multi-Vertical Applications
+> Specialized features designed for various industry verticals and compliance requirements.
 
-- **Ballot Box Monitoring**: Door sensor integration and tamper detection
-- **Equipment Tracking**: Voting machine location and status monitoring
-- **Chain of Custody**: Automated audit trails for sensitive materials
-- **Access Control**: Unauthorized access detection and alerting
+- **Security Monitoring**: Door sensor integration and tamper detection for sensitive assets
+- **Equipment Tracking**: Real-time location and status monitoring for critical equipment
+- **Chain of Custody**: Automated audit trails for sensitive materials and high-value assets
+- **Access Control**: Unauthorized access detection and alerting across all verticals
 
 ## 🛠️ Essential Tools for Partners
 
@@ -69,7 +69,7 @@
 
 **Training Focus**:
 - **Device Connection**: Establishing communication with SuperTag devices
-- **Configuration**: Parameter optimization for election use cases
+- **Configuration**: Parameter optimization for specific vertical use cases
 - **Troubleshooting**: Diagnostic procedures and issue resolution
 - **Bulk Operations**: Efficient management of multiple devices
 
@@ -114,20 +114,21 @@
 - Generate standard reports
 - Navigate all major portal sections
 
-### Phase 2: Election Applications (Week 3-4)
+### Phase 2: Vertical Applications (Week 3-4)
 
-> [!vote] Election-Specific Training
-> Specialized training for election security use cases and requirements.
+> [!industry] Vertical-Specific Training
+> Specialized training for various industry verticals and their specific requirements.
 
 **Topics Covered**:
-- [[../Elections Use Cases/Elections Use Case - Ballot Box Monitoring and Security|Ballot box monitoring]] setup and configuration
-- [[../Elections Use Cases/Elections Use Case - Voting Machine Monitoring|Voting machine tracking]] procedures
+- [[../Elections Use Cases/Elections Use Case - Ballot Box Monitoring and Security|Elections: Ballot box monitoring]] setup and configuration
+- Fleet management and logistics tracking procedures
+- Emergency services asset monitoring
 - Chain of custody documentation requirements
-- Compliance and audit trail management
+- Compliance and audit trail management across verticals
 
 **Hands-on Exercises**:
-- Configure ballot box monitoring with door sensors
-- Set up voting equipment tracking workflows
+- Configure security monitoring with door sensors
+- Set up equipment tracking workflows for different verticals
 - Create chain of custody reports
 - Practice emergency response procedures
 
@@ -143,7 +144,7 @@
 - Advanced troubleshooting techniques
 
 **Hands-on Exercises**:
-- Configure devices for specific election scenarios
+- Configure devices for specific vertical scenarios
 - Set up custom integrations
 - Optimize system performance for large deployments
 - Resolve complex technical issues
@@ -178,16 +179,16 @@
 - **Case Studies**: Resolve 5 complex customer scenarios independently
 - **Documentation**: Create customer-facing documentation for common procedures
 
-### Election Security Certification
+### Vertical Specialization Certification
 
-> [!security] Specialized Knowledge
-> Demonstrate expertise in election-specific applications and security requirements.
+> [!industry] Specialized Knowledge
+> Demonstrate expertise in specific vertical applications and their unique requirements.
 
 **Requirements**:
-- **Election Use Cases**: Master all election-specific configurations
-- **Compliance Knowledge**: Understand relevant regulations and standards
-- **Security Procedures**: Demonstrate proper security protocols
-- **Emergency Response**: Successfully handle simulated election emergencies
+- **Vertical Use Cases**: Master configurations for chosen vertical specializations
+- **Compliance Knowledge**: Understand relevant regulations and standards for target verticals
+- **Security Procedures**: Demonstrate proper security protocols across verticals
+- **Emergency Response**: Successfully handle simulated critical operational scenarios
 
 ## 🔗 Related Documentation
 
@@ -224,5 +225,5 @@
 > - Ongoing customer feedback integration
 
 **Document Version**: 2.0  
-**Last Updated**: October 14, 2024  
-**Part of**: [[index|EasyVote Partner Support Guide]]
+**Last Updated**: October 15, 2024  
+**Part of**: [[index|Link Labs Partner Support Guide]]

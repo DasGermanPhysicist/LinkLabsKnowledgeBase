@@ -1,11 +1,11 @@
-# EasyVote Partner Support Guide - MOVED
+# Link Labs Partner Support Guide - MOVED
 
 > [!warning] Document Relocated
 > This document has been split into multiple focused sections for better navigation and maintenance.
 
 ## 🔄 New Location
 
-The comprehensive EasyVote Partner Support Guide is now available as a structured collection of focused documents:
+The comprehensive Link Labs Partner Support Guide is now available as a structured collection of focused documents:
 
 **👉 [[index|Go to New Partner Support Index]]**
 
@@ -50,7 +50,7 @@ The new documents also link to relevant parent folder resources:
 ---
 
 > [!tip] Bookmark the New Index
-> Update your bookmarks to point to [[index|EasyVote Partner Support Index]] for the complete guide.
+> Update your bookmarks to point to [[index|Link Labs Partner Support Index]] for the complete guide.
 
 **Migration Date**: October 14, 2024  
 **Original Version**: 1.0 (908 lines)  
