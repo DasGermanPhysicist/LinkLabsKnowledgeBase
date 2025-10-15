@@ -1,27 +1,30 @@
+---
+reviewed: true
+---
 # Issue Escalation Plan
 
 > [!info] Navigation
 > ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
-> This document provides clear escalation procedures, response times, and contact information for different types of support issues in AirFinder election security solutions.
+> This document provides clear escalation procedures, response times, and contact information for different types of support issues in AirFinder IoT asset tracking solutions across multiple verticals.
 
 ## 🚨 Escalation Levels
 
-### Level 1: EasyVote Support (First Response)
+### Level 1: Partner Support (First Response)
 
 > [!user] Primary Customer Interface
-> EasyVote provides initial customer support and basic issue resolution.
+> Partners provide initial customer support and basic issue resolution.
 
 **Handles**: 
 - Basic configuration questions
 - User account issues
-- Standard troubleshooting procedures
+- Standard troubleshooting procedures, see [[Troubleshooting_Guide]]
 - Documentation and training requests
 
 **Response Time**: 
 - **Standard**: 4 hours during business hours
-- **Election Period**: 1 hour, 24/7 coverage
+- **Critical Period**: 1 hour, 24/7 coverage
 
 **Escalation Criteria**:
 - Technical issues beyond basic troubleshooting
@@ -41,31 +44,38 @@
 - Performance analysis and tuning
 
 **Response Time**:
-- **Standard**: 2 hours during business hours
-- **Critical**: 30 minutes, 24/7 coverage
-- **Election Period**: Immediate response, dedicated team
+- Outlined in [[Link Labs Direct Customer Agreements]]
 
-**Escalation Criteria**:
-- System-wide outages or critical failures
-- Security incidents or breaches
-- Data integrity or compliance issues
-- Emergency situations during elections
+|**Severity Level**|**Initial Response During Business Hours**|**Target Resolution Time* During Business Hours**|
+|---|---|---|
+|**Severity 0 Hosting Problem**<br><br>**(Note, Severity 0 problems cannot be communicated to Link Labs by email)**|30 Minutes|2 Hours|
+|**Severity 1 Hosting Problem**<br><br>**(Note, Severity 1 problems cannot be communicated to Link Labs by email)**|2 Hours|4 Hours|
+|**Severity 2 Hosting Problem**|4 Hours|24 Hours|
+|**Severity 3 Hosting Problem**|2 Business Days|5 Business Days|
+
+|   |   |   |
+|---|---|---|
+|**Severity Level**|**Initial Response During Non-Business Hours**|**Target Resolution Time* During Non-Business Hours**|
+|**Severity 0 Hosting Problem**<br><br>**(Note, Severity 0 problems cannot be communicated to Link Labs by email)**|6 hours|24 hours|
+|**Severity 1 Hosting Problem**<br><br>**(Note, Severity 1 problems cannot be communicated to Link Labs by email)**|6 hours|24 hours|
+
+- Severity Definitions: For purposes of these Services:
+    - “Severity 0” means a problem in the Service that causes substantial downtime of the Service. There is no viable Workaround available.
+    - “Severity 1” means a problem in the Service that results in the loss of critical functions of the Service or a limited number of Users cannot access the Service.
+    - “Severity 2” means a problem in the Service that impacts operations and/or efficiency but Customer is still able to use the Service. A Workaround is generally available.
+    - “Severity 3” means a technical question about the Service that does not impact Customer’s use of the Service.
+- Company shall use commercially reasonable efforts to resolve each significant issue by providing a workaround, an object code patch or a specific action plan for how Company will address the issue, and an estimate of how long it will take for the issue to be resolved.
 
 ### Level 3: Link Labs Engineering Team
 
 > [!code] Platform Development Team
-> Engineering team handles platform bugs, security issues, and emergency recovery.
+> Engineering team handles product bugs, security issues, and emergency recovery.
 
 **Handles**:
-- Platform bugs and software issues
+- Product bugs and software issues
 - Architecture and design problems
 - Security vulnerabilities
 - Emergency system recovery
-
-**Response Time**:
-- **Critical**: Immediate response
-- **High**: 1 hour
-- **Standard**: 4 hours
 
 ## ⚡ When to Escalate
 
@@ -106,7 +116,10 @@
 > [!checklist] Required Information
 > Gather all relevant details before escalating to ensure efficient resolution.
 
-- **Problem Description**: Detailed description of the issue and symptoms
+- **Problem Description**: 
+	- Detailed description of the issue and symptoms
+	- System truth: Let customer describe physical configuration of devices 
+	- Strive to provide photographic evidence of mounting and positioning of devices
 - **Steps Taken**: All troubleshooting steps already attempted
 - **Customer Impact**: Assessment of business impact and affected users
 - **Timeline**: Urgency level and required resolution timeframe
@@ -116,18 +129,15 @@
 > [!contact] Escalation Contacts
 > Use appropriate contact method based on issue severity and time sensitivity.
 
-- **Level 2**: support@link-labs.com, Phone: [Support Number]
-- **Level 3**: emergency@link-labs.com, Phone: [Emergency Number]
-- **Election Emergency**: election-support@link-labs.com
-
+- Contact information is referenced in [[Chain_of_Command_Support_Structure#Link Labs Support Team]]
 ### 3. Information to Provide
 
 > [!info] Escalation Details
 > Include all relevant technical and business context for faster resolution.
 
 - Customer name and account details
-- Device IDs and serial numbers
-- Error messages or system logs
+- Device MacIDs
+- Error messages or system logs, if available
 - Timeline and business impact
 - Contact information for follow-up
 
@@ -180,28 +190,17 @@
 
 ### Support Structure
 - [[Chain_of_Command_Support_Structure|Support Structure]] - Understand roles and responsibilities
-- [[Support_Handoff_Timeline_Process|Handoff Process]] - Transition procedures and timelines
 
 ### Technical Resources
 - [[Troubleshooting_Guide|Troubleshooting Guide]] - Resolve issues before escalating
-- [[Features_Tools_Training|Platform Training]] - Understand system capabilities
+- [[Features_Tools_Training|Features and Tools]] - Understand system capabilities
 - [[Configuration_Guide|Configuration Guide]] - System setup and management
-
-### Parent Documentation
-- [[../SuperTag Behavior Doc v3.3.1|SuperTag Technical Specifications]] - Device behavior details
-- [[../BLE Tag Hubmode Troubleshooting Process|BLE Troubleshooting]] - Advanced device troubleshooting
 
 ---
 
-> [!emergency] Emergency Procedures
-> **During Election Periods**: All critical issues must be escalated immediately to election-support@link-labs.com with phone follow-up. Do not wait for email responses during active elections.
 
 > [!tip] Best Practices
 > - Always attempt Level 1 troubleshooting before escalating
 > - Document all steps taken and results obtained
 > - Provide complete information to avoid delays
 > - Follow up on escalated issues to ensure resolution
-
-**Document Version**: 2.0  
-**Last Updated**: October 14, 2024  
-**Part of**: [[index|EasyVote Partner Support Guide]]
