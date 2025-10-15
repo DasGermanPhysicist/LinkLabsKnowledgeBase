@@ -43,7 +43,7 @@
 - Let user try cloud-sync, best in location with known cell coverage 
 - Let user provide photographic evidence 
 #### Resolution Steps
-- **Battery <10%**: Replace device or recharge if applicable
+- **Battery Low**: Replace device or recharge if applicable
 - **No Cellular Signal**: Change device mounting to position with less RF shielding
 - **Configuration Issue**: Reset to default settings and reconfigure
 - **Hardware Failure**: [[Issue_Escalation_Plan|Escalate to Link Labs]] for replacement
