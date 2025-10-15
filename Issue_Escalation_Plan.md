@@ -1,7 +1,7 @@
 # Issue Escalation Plan
 
 > [!info] Navigation
-> ← Back to [[EasyVote_Partner_Support_Index|Partner Support Index]]
+> ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
 > This document provides clear escalation procedures, response times, and contact information for different types of support issues in AirFinder election security solutions.
@@ -204,4 +204,4 @@
 
 **Document Version**: 2.0  
 **Last Updated**: October 14, 2024  
-**Part of**: [[EasyVote_Partner_Support_Index|EasyVote Partner Support Guide]]
+**Part of**: [[index|EasyVote Partner Support Guide]]
