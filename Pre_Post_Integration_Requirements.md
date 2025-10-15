@@ -1,7 +1,7 @@
 # Pre & Post Integration Requirements
 
 > [!info] Navigation
-> ← Back to [[EasyVote_Partner_Support_Index|Partner Support Index]]
+> ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
 > Comprehensive requirements and commitments for successful EasyVote-Link Labs partnership integration, covering technical prerequisites, business requirements, and ongoing responsibilities.
@@ -230,4 +230,4 @@
 
 **Document Version**: 2.0  
 **Last Updated**: October 14, 2024  
-**Part of**: [[EasyVote_Partner_Support_Index|EasyVote Partner Support Guide]]
+**Part of**: [[index|EasyVote Partner Support Guide]]
