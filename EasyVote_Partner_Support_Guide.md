@@ -7,7 +7,7 @@
 
 The comprehensive EasyVote Partner Support Guide is now available as a structured collection of focused documents:
 
-**👉 [[EasyVote_Partner_Support_Index|Go to New Partner Support Index]]**
+**👉 [[index|Go to New Partner Support Index]]**
 
 ## 📚 What Changed
 
@@ -50,7 +50,7 @@ The new documents also link to relevant parent folder resources:
 ---
 
 > [!tip] Bookmark the New Index
-> Update your bookmarks to point to [[EasyVote_Partner_Support_Index|EasyVote Partner Support Index]] for the complete guide.
+> Update your bookmarks to point to [[index|EasyVote Partner Support Index]] for the complete guide.
 
 **Migration Date**: October 14, 2024  
 **Original Version**: 1.0 (908 lines)  

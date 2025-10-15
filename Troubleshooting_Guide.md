@@ -1,7 +1,7 @@
 # Troubleshooting Guide
 
 > [!info] Navigation
-> ← Back to [[EasyVote_Partner_Support_Index|Partner Support Index]]
+> ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
 > Comprehensive troubleshooting procedures for common AirFinder issues, including step-by-step resolution guides and escalation criteria for election security applications.
@@ -263,4 +263,4 @@
 
 **Document Version**: 2.0  
 **Last Updated**: October 14, 2024  
-**Part of**: [[EasyVote_Partner_Support_Index|EasyVote Partner Support Guide]]
+**Part of**: [[index|EasyVote Partner Support Guide]]
