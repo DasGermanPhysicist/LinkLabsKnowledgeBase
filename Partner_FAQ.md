@@ -1,7 +1,7 @@
 # Partner FAQ
 
 > [!info] Navigation
-> ← Back to [[EasyVote_Partner_Support_Index|Partner Support Index]]
+> ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
 > Frequently asked questions for EasyVote partners supporting AirFinder election security solutions, covering technical, business, and operational topics.
@@ -369,11 +369,11 @@ See [[Issue_Escalation_Plan|Escalation Procedures]] for complete escalation guid
 
 > [!question] Additional Questions?
 > If you have questions not covered in this FAQ:
-> - Check the [[EasyVote_Partner_Support_Index|Partner Support Index]] for additional resources
+> - Check the [[index|Partner Support Index]] for additional resources
 > - Consult the [[Troubleshooting_Guide|Troubleshooting Guide]] for technical issues
 > - Use the [[Issue_Escalation_Plan|Escalation Plan]] for complex problems
 > - Contact Link Labs support for partnership-specific questions
 
 **Document Version**: 2.0  
 **Last Updated**: October 14, 2024  
-**Part of**: [[EasyVote_Partner_Support_Index|EasyVote Partner Support Guide]]
+**Part of**: [[index|EasyVote Partner Support Guide]]
