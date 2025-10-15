@@ -4,7 +4,7 @@
 > ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
-> Step-by-step configuration procedures for setting up AirFinder election security solutions, from initial account creation to advanced election-specific configurations.
+> Step-by-step configuration procedures for setting up AirFinder IoT asset tracking solutions across multiple verticals, from initial account creation to advanced vertical-specific configurations.
 
 ## 🚀 Initial Customer Setup Process
 
@@ -24,7 +24,7 @@
    - Configure initial user accounts and permissions
 
 3. **Portal Configuration**
-   - Customize dashboard layout for election use cases
+   - Customize dashboard layout for specific vertical use cases
    - Set up organizational structure and asset categories
    - Configure notification preferences and alert recipients
    - Establish reporting schedules and formats
@@ -39,22 +39,22 @@
 #### SuperTag Configuration
 
 > [!device] Device Setup
-> Configure SuperTag devices for optimal performance in election environments.
+> Configure SuperTag devices for optimal performance in various operational environments.
 
 **Basic Settings**
 ```yaml
 Device Configuration:
   - Device ID: Use consistent naming convention
-  - Location Update Frequency: 5-15 minutes (recommended for elections)
-  - Battery Optimization: Balanced mode for election periods
+  - Location Update Frequency: 5-15 minutes (recommended for most applications)
+  - Battery Optimization: Balanced mode for operational periods
   - Cellular Connectivity: Verify carrier compatibility
 ```
 
-**Election-Specific Settings**
+**Vertical-Specific Settings**
 ```yaml
-Election Configuration:
-  - Geofencing: 10-meter precision boundaries for election facilities
-  - Tamper Detection: Medium sensitivity for ballot boxes
+Vertical Configuration:
+  - Geofencing: 10-meter precision boundaries for facilities
+  - Tamper Detection: Adjustable sensitivity based on asset type
   - Emergency Alerts: Immediate notification for critical events
   - Chain of Custody: Enable complete audit trail tracking
 ```
@@ -84,77 +84,82 @@ Door Sensor Setup:
 > [!warning] Sensor Range Limitations
 > BLE sensors must be within 50 feet of SuperTag devices. Plan sensor placement accordingly and test connectivity before deployment.
 
-## 🗳️ Election Use Case Configuration
+## 🏢 Vertical Use Case Configurations
 
-### Ballot Box Monitoring
+### Elections Vertical
 
-> [!ballot] Ballot Box Security
-> Complete configuration for secure ballot box monitoring with tamper detection.
+> [!ballot] Election Security
+> Complete configuration for election security applications including ballot boxes, voting machines, and sensitive materials.
 
 ```yaml
-Asset Type: Ballot Box
-Sensors: Door sensors, tamper detection
+Asset Types: Ballot boxes, voting machines, ballot bags, thumb drives
+Key Features: Tamper detection, chain of custody, secure access monitoring
 Alerts: 
   - Unauthorized access (immediate notification)
   - Extended open duration (5+ minutes)
-  - Movement outside designated area
+  - Movement outside designated areas
   - Tamper detection activation
 Reporting: 
-  - Real-time status dashboard
-  - Daily security summaries
+  - Real-time security dashboard
   - Chain of custody documentation
-```
-
-**Configuration Steps**:
-1. Create ballot box asset in AirFinder portal
-2. Assign SuperTag device with door sensor capability
-3. Configure geofencing boundary (10-meter radius recommended)
-4. Set up immediate alert notifications for security events
-5. Enable comprehensive audit logging
-
-### Voting Machine Tracking
-
-> [!computer] Equipment Security
-> Track and monitor voting machines throughout the election process.
-
-```yaml
-Asset Type: Voting Machine
-Tracking: Location, power status, access events
-Alerts:
-  - Unauthorized movement outside designated areas
-  - Power disconnection during critical periods
-  - Access panel opening without authorization
-  - Extended offline periods
-Reporting: 
-  - Chain of custody documentation
-  - Equipment utilization reports
-  - Security event summaries
-```
-
-**Configuration Steps**:
-1. Create voting machine assets with unique identifiers
-2. Configure location tracking with 5-minute update intervals
-3. Set up movement alerts between authorized locations
-4. Enable power status monitoring if supported
-5. Configure custody transfer notifications
-
-### Secure Material Custody
-
-> [!lock] Sensitive Materials
-> Monitor ballot bags, thumb drives, and other sensitive election materials.
-
-```yaml
-Asset Type: Ballot bags, thumb drives, sensitive documents
-Tracking: Location, custody transfers, environmental conditions
-Alerts:
-  - Unauthorized access or movement
-  - Temperature/humidity deviations (if sensors available)
-  - Custody chain breaks or gaps
-  - Extended periods outside secure areas
-Reporting: 
-  - Complete audit trails
   - Compliance reports for regulatory requirements
-  - Chain of custody documentation
+```
+
+### Emergency Services (Ambulances, Fire Departments)
+
+> [!emergency] Emergency Response
+> Track emergency vehicles and critical equipment for optimal response times and resource management.
+
+```yaml
+Asset Types: Ambulances, fire trucks, medical equipment, rescue gear
+Key Features: Real-time location, route optimization, equipment status
+Alerts:
+  - Vehicle breakdown or maintenance needs
+  - Equipment missing from designated locations
+  - Extended response times
+  - Unauthorized vehicle usage
+Reporting:
+  - Response time analytics
+  - Equipment utilization reports
+  - Maintenance scheduling
+```
+
+### Transportation & Logistics
+
+> [!truck] Fleet Management
+> Monitor trucking fleets, cargo, and logistics operations for efficiency and security.
+
+```yaml
+Asset Types: Trucks, trailers, cargo containers, high-value shipments
+Key Features: Route tracking, cargo security, delivery confirmation
+Alerts:
+  - Route deviations
+  - Unauthorized stops or delays
+  - Cargo tampering or theft
+  - Maintenance requirements
+Reporting:
+  - Delivery performance metrics
+  - Route optimization analysis
+  - Security incident reports
+```
+
+### Vehicle Loss & Theft Prevention
+
+> [!shield] Asset Protection
+> Comprehensive vehicle and equipment protection against theft and unauthorized use.
+
+```yaml
+Asset Types: Vehicles, construction equipment, valuable machinery
+Key Features: Anti-theft monitoring, recovery assistance, usage tracking
+Alerts:
+  - Unauthorized movement
+  - Geofence violations
+  - Tampering attempts
+  - Extended idle periods
+Reporting:
+  - Asset utilization reports
+  - Security event summaries
+  - Recovery success metrics
 ```
 
 ## ⚙️ Feature Configuration Options
@@ -162,11 +167,11 @@ Reporting:
 ### Location Tracking Settings
 
 > [!location] Positioning Configuration
-> Optimize location tracking for election environment requirements.
+> Optimize location tracking for specific operational environment requirements.
 
-- **Update Frequency**: 1 minute to 24 hours (election default: 5 minutes)
+- **Update Frequency**: 1 minute to 24 hours (recommended default: 5 minutes)
 - **Accuracy Mode**: High precision (GPS + WiFi + Cellular)
-- **Power Management**: Balanced mode for election periods
+- **Power Management**: Balanced mode for operational periods
 - **Geofencing**: Custom boundaries with 10-meter precision
 
 > [!note] Battery Life Considerations
@@ -175,12 +180,12 @@ Reporting:
 ### Alert Configuration
 
 > [!bell] Notification Management
-> Set up comprehensive alerting for election security events.
+> Set up comprehensive alerting for operational security events.
 
 - **Immediate Alerts**: SMS, email, push notifications
 - **Escalation Rules**: Multiple notification levels with time-based escalation
 - **Alert Recipients**: Primary and backup contacts for redundancy
-- **Quiet Hours**: Configurable for non-election periods
+- **Quiet Hours**: Configurable for non-operational periods
 
 **Alert Priority Levels**:
 - **Critical**: Security breaches, unauthorized access
@@ -191,7 +196,7 @@ Reporting:
 ### Reporting Options
 
 > [!chart] Data and Analytics
-> Configure reporting to meet election compliance and operational requirements.
+> Configure reporting to meet compliance and operational requirements across verticals.
 
 - **Real-time Dashboard**: Live status and alerts for active monitoring
 - **Scheduled Reports**: Daily, weekly, monthly summaries
@@ -203,7 +208,7 @@ Reporting:
 ### Custom Integration Setup
 
 > [!api] System Integration
-> Connect AirFinder with existing election management systems.
+> Connect AirFinder with existing operational management systems across verticals.
 
 **API Configuration**:
 - RESTful API endpoints for data exchange
@@ -212,15 +217,15 @@ Reporting:
 - Error handling and retry logic
 
 **Integration Examples**:
-- Election management system data feeds
-- Voter registration database connections
+- Fleet management system data feeds
+- ERP and inventory management connections
 - Security system integration
 - Reporting platform connections
 
 ### Performance Optimization
 
 > [!performance] System Tuning
-> Optimize system performance for large-scale election deployments.
+> Optimize system performance for large-scale deployments across verticals.
 
 **Optimization Areas**:
 - **Device Configuration**: Batch configuration for efficiency
@@ -243,9 +248,9 @@ Reporting:
 - [[../SuperTag Behavior Doc v3.3.1|SuperTag Behavior Documentation]] - Technical specifications
 
 ### Use Case Examples
-- [[../Elections Use Cases/Elections Use Case - Ballot Box Monitoring and Security|Ballot Box Monitoring]] - Detailed use case
-- [[../Elections Use Cases/Elections Use Case - Voting Machine Monitoring|Voting Machine Monitoring]] - Equipment tracking
-- [[../Elections Use Cases/Elections Use Case - Ballot Bag Tracking|Ballot Bag Tracking]] - Material custody
+- [[../Elections Use Cases/Elections Use Cases - Ballot Box Monitoring and Security|Elections: Ballot Box Monitoring]] - Election security use case
+- [[../Elections Use Cases/Elections Use Case - Voting Machine Monitoring|Elections: Voting Machine Monitoring]] - Equipment tracking
+- [[../Elections Use Cases/Elections Use Case - Ballot Bag Tracking|Elections: Ballot Bag Tracking]] - Material custody
 
 ### Support Resources
 - [[Troubleshooting_Guide|Troubleshooting Guide]] - Configuration issue resolution
@@ -269,5 +274,5 @@ Reporting:
 > - Test security features under realistic conditions
 
 **Document Version**: 2.0  
-**Last Updated**: October 14, 2024  
-**Part of**: [[index|EasyVote Partner Support Guide]]
+**Last Updated**: October 15, 2024  
+**Part of**: [[index|Link Labs Partner Support Guide]]
