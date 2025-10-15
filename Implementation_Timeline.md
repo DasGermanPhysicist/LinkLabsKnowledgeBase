@@ -1,7 +1,7 @@
 # Implementation Timeline
 
 > [!info] Navigation
-> ← Back to [[EasyVote_Partner_Support_Index|Partner Support Index]]
+> ← Back to [[index|Partner Support Index]]
 
 > [!abstract] Overview
 > Detailed timeline and milestones for implementing AirFinder election security solutions, from initial consultation through ongoing support operations.
@@ -219,4 +219,4 @@
 
 **Document Version**: 2.0  
 **Last Updated**: October 14, 2024  
-**Part of**: [[EasyVote_Partner_Support_Index|EasyVote Partner Support Guide]]
+**Part of**: [[index|EasyVote Partner Support Guide]]
